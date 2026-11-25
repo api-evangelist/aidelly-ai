@@ -66,7 +66,7 @@
 
 Aidelly AI provides an AI‑powered social media management platform for agencies, offering white‑label agents that can draft, publish, reply, and report on client accounts. The service supports unlimited client accounts, integrates with tools like Claude, ChatGPT, and Zapier, and includes features such as brand‑specific tone settings, multi‑platform posting (Facebook, Instagram, LinkedIn, TikTok, etc.), and detailed analytics. It aims to streamline agency workflows with AI agents that can be customized to each client’s voice and compliance needs.
 
-**Areas:** AI · Social Media · Agency · White-label · Automation
+**Areas:** Artificial Intelligence · Social Media · Agency · White Label · Automation
 
 ## Aidelly AI on APIs.io
 
@@ -124,22 +124,48 @@ Event-driven and webhook contracts.
 
 - [Aidelly Ai Webhooks](https://apis.io/asyncapis/aidelly-ai/aidelly-ai-webhooks/)
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [aidelly-ai-mcp.yml](https://apis.io/servers/aidelly-ai/aidelly-ai-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Aidelly Ai Agentic Access](https://apis.io/agentic-access/aidelly-ai/aidelly-ai-agentic-access/)
+- [Aidelly AI Agentic Access](https://apis.io/agentic-access/aidelly-ai/aidelly-ai-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (40)
 
 The data models the API reads and writes.
 
+- [AccountsEnvelope](https://apis.io/schemas/aidelly-ai/aidelly-ai-accounts-envelope/)
+- [ActivityListEnvelope](https://apis.io/schemas/aidelly-ai/aidelly-ai-activity-list-envelope/)
+- [AiCreditBalanceEnvelope](https://apis.io/schemas/aidelly-ai/aidelly-ai-ai-credit-balance-envelope/)
+- [ApprovalSettingsResponse](https://apis.io/schemas/aidelly-ai/aidelly-ai-approval-settings-response/)
+- [BrandInterviewQuestion](https://apis.io/schemas/aidelly-ai/aidelly-ai-brand-interview-question/)
+- [BrandProfileResponse](https://apis.io/schemas/aidelly-ai/aidelly-ai-brand-profile-response/)
+- [ConnectEcommerceStoreRequest](https://apis.io/schemas/aidelly-ai/aidelly-ai-connect-ecommerce-store-request/)
+- [CreateIdeaRequest](https://apis.io/schemas/aidelly-ai/aidelly-ai-create-idea-request/)
 - [CreatePhotoRequest](https://apis.io/schemas/aidelly-ai/aidelly-ai-create-photo-request/)
 - [CreatePostRequest](https://apis.io/schemas/aidelly-ai/aidelly-ai-create-post-request/)
 - [CreateRepurposeJobRequest](https://apis.io/schemas/aidelly-ai/aidelly-ai-create-repurpose-job-request/)
 - [CreateScheduledPostRequest](https://apis.io/schemas/aidelly-ai/aidelly-ai-create-scheduled-post-request/)
-- [Report](https://apis.io/schemas/aidelly-ai/aidelly-ai-report/)
-- [ReportSchedule](https://apis.io/schemas/aidelly-ai/aidelly-ai-report-schedule/)
+- [CreateWebhookRequest](https://apis.io/schemas/aidelly-ai/aidelly-ai-create-webhook-request/)
+- [DraftEnvelope](https://apis.io/schemas/aidelly-ai/aidelly-ai-draft-envelope/)
+- [DraftListEnvelope](https://apis.io/schemas/aidelly-ai/aidelly-ai-draft-list-envelope/)
+- [EcommerceProduct](https://apis.io/schemas/aidelly-ai/aidelly-ai-ecommerce-product/)
+- [EcommerceStore](https://apis.io/schemas/aidelly-ai/aidelly-ai-ecommerce-store/)
+- [EcommerceStoreDeleteResponse](https://apis.io/schemas/aidelly-ai/aidelly-ai-ecommerce-store-delete-response/)
+- [EnvelopeBase](https://apis.io/schemas/aidelly-ai/aidelly-ai-envelope-base/)
+- [GenericDeleteResponse](https://apis.io/schemas/aidelly-ai/aidelly-ai-generic-delete-response/)
+- [MediaDirectUploadRequest](https://apis.io/schemas/aidelly-ai/aidelly-ai-media-direct-upload-request/)
+- [MediaUploadUrlRequest](https://apis.io/schemas/aidelly-ai/aidelly-ai-media-upload-url-request/)
+- [MemberRoleUpdateResponse](https://apis.io/schemas/aidelly-ai/aidelly-ai-member-role-update-response/)
+- [MembershipsListResponse](https://apis.io/schemas/aidelly-ai/aidelly-ai-memberships-list-response/)
+- [PendingApprovalPost](https://apis.io/schemas/aidelly-ai/aidelly-ai-pending-approval-post/)
+- …and 15 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -157,22 +183,22 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aidelly Ai Authentication](https://apis.io/security/aidelly-ai/aidelly-ai-authentication/)
-- [Aidelly Ai Domain Security](https://apis.io/security/aidelly-ai/aidelly-ai-domain-security/)
-- [Aidelly Ai Trust Center](https://apis.io/security/aidelly-ai/aidelly-ai-trust-center/)
-- [Aidelly Ai Vulnerability Disclosure](https://apis.io/security/aidelly-ai/aidelly-ai-vulnerability-disclosure/)
+- [Aidelly AI Authentication](https://apis.io/security/aidelly-ai/aidelly-ai-authentication/)
+- [Aidelly AI Domain Security](https://apis.io/security/aidelly-ai/aidelly-ai-domain-security/)
+- [Aidelly AI Trust Center](https://apis.io/security/aidelly-ai/aidelly-ai-trust-center/)
+- [Aidelly AI Vulnerability Disclosure](https://apis.io/security/aidelly-ai/aidelly-ai-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Aidelly Ai Scopes](https://apis.io/scopes/aidelly-ai/aidelly-ai-scopes/)
+- [Aidelly AI Scopes](https://apis.io/scopes/aidelly-ai/aidelly-ai-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Aidelly Ai Plans Pricing](https://apis.io/plans/aidelly-ai/aidelly-ai-plans-pricing/)
+- [Aidelly AI Plans Pricing](https://apis.io/plans/aidelly-ai/aidelly-ai-plans-pricing/)
 
 ## Where to find this API
 
@@ -193,7 +219,50 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/aidelly-ai/](https://apis.io/providers/aidelly-ai/).
+**Kin Score 65.4** — strong · rubric 0.28.1 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 83.3 |
+| Contract quality | 67.5 |
+| Contract governance | 22.0 |
+| Operational transparency | 42.9 |
+| Developer ergonomics | 54.2 |
+| Access clarity | 89.4 |
+
+**Agent readiness 64.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | yes |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
+
+**Regulatory alignment 41.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aidelly-ai/](https://apis.io/providers/aidelly-ai/).
 
 ## How this profile is made
 
